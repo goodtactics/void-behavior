@@ -184,6 +184,8 @@ input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:12px;heigh
 input[type=range]::-moz-range-thumb{width:12px;height:12px;border-radius:50%;background:var(--fg);border:0}
 
 /* together */
+.wip{display:block;margin-top:14px;font-size:14px;color:var(--dim)}
+.wip b{display:inline-block;font-weight:500;font-size:12px;color:var(--fg);border:1px solid var(--line2);border-radius:999px;padding:1px 10px;margin-right:10px;vertical-align:1px}
 .mxtop{display:flex;justify-content:space-between;align-items:center;gap:12px 24px;flex-wrap:wrap;margin-bottom:28px}
 .ladder{display:flex;gap:10px;align-items:center;font-size:14px;color:var(--faint)}
 .ladder span{transition:color .3s}.ladder span.on{color:var(--mid)}.ladder span.top{color:var(--fg)}
@@ -335,7 +337,7 @@ footer{margin-top:120px;padding-top:24px;border-top:1px solid var(--line);font-s
 <section id="together"><div class="wrap">
   <div class="intro">
     <h2>All at once.</h2>
-    <p>Podiums, words and the game overlap. Sound always plays. One mood wins.</p>
+    <p>Podiums, words and the game overlap. Sound always plays. One mood wins.<span class="wip"><b>Work in progress</b>Not balanced yet: too many events at once overwhelm both the light and the breakdown.</span></p>
   </div>
   <div class="mxtop">
     <div class="ladder" id="ladder" aria-label="Priority, highest first"></div>
