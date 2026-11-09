@@ -208,11 +208,6 @@ canvas#tl{width:100%;height:281px;display:block;border-top:1px solid var(--line)
 .rules b{color:var(--fg);font-weight:500;margin-right:8px}
 @media (max-width:860px){.mixgrid{grid-template-columns:1fr}.mxrow{height:auto;min-height:44px;flex-wrap:wrap;padding:6px 0}canvas#tl{margin-top:24px}}
 
-/* open */
-.open{list-style:none;padding:0;margin:56px 0 0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:44px 72px}
-@media (max-width:760px){.open{grid-template-columns:1fr}}
-.open b{display:block;font-weight:500;font-size:19px;letter-spacing:-.01em;margin-bottom:6px}
-.open span{color:var(--dim);font-size:15px}
 footer{margin-top:120px;padding-top:24px;border-top:1px solid var(--line);font-size:13px;color:var(--dim)}
 
 @media (max-width:700px){
@@ -366,20 +361,6 @@ footer{margin-top:120px;padding-top:24px;border-top:1px solid var(--line);font-s
     <div class="key"><span><i class="st now"></i>Built</span><span><i class="st planned"></i>In the plan, timings provisional</span><span><i class="st possible"></i>Proposed here</span></div>
     <p class="note">Cooldown here starts when a podium’s words are counted; the plan doesn’t say yet. Theme strengths and recognition delays are invented.</p>
   </details>
-</div></section>
-
-<section id="open"><div class="wrap">
-  <h2>Still to decide.</h2>
-  <ul class="open">
-    <li><b>Which phone is at which podium?</b><span>Tap a podium in the app, enter a code shown on it, or match a send button to podium activity.</span></li>
-    <li><b>What counts as an answer?</b><span>Players keep trying until the Void answers. A reply, a fragment, a mood?</span></li>
-    <li><b>Which themes?</b><span>Four to eight, plus neutral. Themes describe the message, never judge the visitor.</span></li>
-    <li><b>What is a fragment?</b><span>A word, a light, a theme. How long it lives, and how the minigame catches it.</span></li>
-    <li><b>What does it remember?</b><span>Sound shapes and themes need no recording. Keeping words for later visitors needs consent.</span></li>
-    <li><b>What do the other podiums see?</b><span>When one theme wins, the rest get nothing yet. A small nod, or silence?</span></li>
-    <li><b>Can the game set the mood?</b><span>Game events only play moments here. A team win could own the mood for a while.</span></li>
-    <li><b>Does it wake up over time?</b><span>An arc across a session or a day could unlock new gestures.</span></li>
-  </ul>
   <footer>Sources: TheVOID_Awakening_V3.pdf pp. 5, 6, 12, 13 · docs/plan.md · touchdesigner/README.md · touchdesigner/glsl/composition_*.glsl · wiki game-flow sketch · GTS_V1 template. Timings are unmeasured targets or estimates. <span id="simNote"></span></footer>
 </div></section>
 
